@@ -1,0 +1,143 @@
+%!Adobe-FontList 1.24
+%Locale:0x401
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GEDinarTwo-LightItalic
+FamilyName:GE Dinar Two
+StyleName:Light Italic
+FullName:GE Dinar Two Light Italic
+MenuName:GE Dinar Two
+StyleBits:0
+FamilyNameNative:GE Dinar Two
+StyleNameNative:Light Italic
+FullNameNative:GE Dinar Two Light Italic
+WritingScript:Arabic
+OutlineFileName:C:\Users\Naji\Desktop\ELIAS\Font\ArbFONTS-GE-Dinar-Two-Light-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:20248
+FileModTime:1734879774
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,GE Dinar Two Light Italic
+NameArray:0,Win,1,GE Dinar Two
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GEDinarTwo-MediumItalic
+FamilyName:GE Dinar Two
+StyleName:Medium Italic
+FullName:GE Dinar Two Medium Italic
+MenuName:GE Dinar Two
+StyleBits:0
+FamilyNameNative:GE Dinar Two
+StyleNameNative:Medium Italic
+FullNameNative:GE Dinar Two Medium Italic
+WritingScript:Arabic
+OutlineFileName:C:\Users\Naji\Desktop\ELIAS\Font\ArbFONTS-GE-Dinar-Two-Medium-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:20572
+FileModTime:1734879774
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,GE Dinar Two Medium Italic
+NameArray:0,Win,1,GE Dinar Two
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GEDinarTwoMedium
+FamilyName:GE Dinar Two Medium
+StyleName:Medium
+FullName:GE Dinar Two Medium
+MenuName:GE Dinar Two Medium
+StyleBits:0
+FamilyNameNative:GE Dinar Two Medium
+StyleNameNative:Medium
+FullNameNative:GE Dinar Two Medium Medium
+WritingScript:Arabic
+OutlineFileName:C:\Users\Naji\Desktop\ELIAS\Font\ArbFONTS-GE-Dinar-Two-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:28124
+FileModTime:1734879774
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,GE Dinar Two Medium
+NameArray:0,Win,1,GE Dinar Two Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FodaFreeFont
+FamilyName:Foda Free Font
+StyleName:Regular
+FullName:Foda Free Font
+MenuName:Foda Free Font
+StyleBits:0
+FamilyNameNative:Foda Free Font
+StyleNameNative:Regular
+FullNameNative:Foda Free Font Regular
+WritingScript:Arabic
+OutlineFileName:C:\Users\Naji\Desktop\ELIAS\Font\Foda-Free-Font.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:72672
+FileModTime:1734879774
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Foda Free Font
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:gedinarone
+FamilyName:ge dinarone
+StyleName:ge dinarone
+FullName:ge dinarone
+MenuName:ge dinarone
+StyleBits:2
+FamilyNameNative:ge dinarone
+StyleNameNative:ge dinarone
+FullNameNative:ge dinarone ge dinarone
+WritingScript:Arabic
+OutlineFileName:C:\Users\Naji\Desktop\ELIAS\Font\ge dinarone.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:71584
+FileModTime:1734879774
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ge dinarone
+NameArray:0,Win,1,ge dinarone
+%EndFont
+
