@@ -20,7 +20,7 @@ a {
     margin: 0 10px;
 }
 .logo {
-    text-align: center;
+    text-align: center !important;
     margin: 20px 0;
 }
 main {
