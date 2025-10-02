@@ -1,35 +1,156 @@
+
+  body {
+  background-image: linear-gradient(rgba(130, 128, 255, 0.5), rgba(161, 255, 153, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+/* hrader */
 header {
-    background-color: #f8f9fa;
+    text-align: center;
+    margin-top: 30px;
+}
+header img {
+  /* transform: scale(0.5); */
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  font-family: '5', Arial, sans-serif;
+  margin-top: 10px;
+}
+header h3 {
+  color: white;
+  text-align: center;
+  font-family: '3', Arial, sans-serif;
+  font-weight: 900;
+}
+/* <section class="data">
+    <div class="row">
+        <div class="col-2 data-icon"><i class="fa-solid fa-envelope"></i></div>
+        <div class="col-10 data-contant"> <a href="mailto:Mohamed.s.saadeh@gmail.com"> Mohamed.s.saadeh@gmail.com </a> </div>
+        <div class="col-2 data-icon"><i class="fa-solid fa-phone"></i></div>
+        <div class="col-10 data-contant"> <a href="tel:+97259111846"> +972 59 111 846 </a> </div>
+        <div class="col-2 data-icon"><i class="fa-brands fa-whatsapp"></i></div>
+        <div class="col-10 data-contant"> <a href="https://wat.me/+97259111846"> +972 59 111 846 </a> </div>
+        <div class="col-2 data-icon"><i class="fa-brands fa-facebook"></i></div>
+        <div class="col-10 data-contant"> <a href="https://www.facebook.com/mohammed.saadeh.94"> Mohammed Saadeh </a> </div>
+    </div>
+</section> */
+/* data */
+.data {
+    margin-top: 50px;
+    width: 60%;
+    background-color: #ffffffb3;
     padding: 20px;
-    text-align: center;
-    border-bottom: 2px solid #e0e0e0;
-}
-a {
-    color: #000000;
-    text-decoration: none;
-}
-.social-media {
-    background-color: #000000;
-    padding: 10px;
-    text-align: center;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
 }
-.social-media img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
+.data .row {
+    margin-bottom: 15px;
+    align-items: center;
 }
-.logo {
-    text-align: center !important;
-    margin: 20px 0;
+.data-icon {
+    text-align: right;
+    font-size: 24px;
+    color: #333;
 }
-main {
-    background-color: #717171;
-    padding: 20px;
-    text-align: center;
+.data a {
+    text-decoration: none;
+    color: #000000;
+    font-family: '3', Arial, sans-serif;
+    font-size: 18px;
+}
+/* shareet */
+.shareet {
+  margin-top: 50px;
+}
+.shareet h2 {
+  color: white;
+  text-align: center;
+  font-family: '3', Arial, sans-serif;
+}
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff00;
+  padding: 10px 0;
+  position: relative;
+}
+.marquee-content {
+  display: flex;
+  animation: scroll-right 25s linear infinite;
+}
+.marquee-content img {
+  margin-right: 30px;
+  height: 150px;
+  width: auto;
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
 }
 footer {
-    padding: 10px;
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  font-family: '3', Arial, sans-serif;
+}
+@media (max-width: 501px) {
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-550%);
+    }
+  }
+}
+@media (max-width: 600px) {
+/* shareet */
+.shareet {
+  margin-top: 50px;
+}
+.shareet h2 {
+  color: white;
+  text-align: center;
+  font-family: '3', Arial, sans-serif;
+}
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff00;
+  padding: 10px 0;
+  position: relative;
+}
+.marquee-content {
+  display: flex;
+  animation: scroll-right 15s linear infinite;
+}
+.marquee-content img {
+  margin-right: 30px;
+  height: 100px;
+  width: auto;
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-450%);
+  }
+}
 }
