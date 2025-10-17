@@ -81,7 +81,7 @@ header h4 {
 }
 .marquee-content {
   display: flex;
-  animation: scroll-right 5s linear infinite;
+  animation: scroll-right 25s linear infinite;
 }
 .marquee-content img {
   margin-right: 30px;
@@ -93,7 +93,7 @@ header h4 {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-1000%);
+    transform: translateX(-300%);
   }
 }
 /* ====== الفوتر ====== */
@@ -121,6 +121,9 @@ footer img {
       transform: translateX(0%);
     }
   }
+}
+.marquee-content {
+  animation: scroll-right 5s linear infinite;
 }
 /* ====== للهواتف ====== */
 @media (max-width: 600px) {
