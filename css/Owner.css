@@ -32,19 +32,6 @@ header h3 {
   font-family: '3', Arial, sans-serif;
   font-weight: 900;
 }
-/* <section class="data">
-    <div class="row">
-        <div class="col-2 data-icon"><i class="fa-solid fa-envelope"></i></div>
-        <div class="col-10 data-contant"> <a href="mailto:Mohamed.s.saadeh@gmail.com"> Mohamed.s.saadeh@gmail.com </a> </div>
-        <div class="col-2 data-icon"><i class="fa-solid fa-phone"></i></div>
-        <div class="col-10 data-contant"> <a href="tel:+97259111846"> +972 59 111 846 </a> </div>
-        <div class="col-2 data-icon"><i class="fa-brands fa-whatsapp"></i></div>
-        <div class="col-10 data-contant"> <a href="https://wat.me/+97259111846"> +972 59 111 846 </a> </div>
-        <div class="col-2 data-icon"><i class="fa-brands fa-facebook"></i></div>
-        <div class="col-10 data-contant"> <a href="https://www.facebook.com/mohammed.saadeh.94"> Mohammed Saadeh </a> </div>
-    </div>
-</section> */
-/* data */
 .data {
     margin-top: 50px;
     width: fit-content;
