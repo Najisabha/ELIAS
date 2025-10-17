@@ -19,7 +19,7 @@ header img {
   object-fit: cover;
   border: 5px solid white;
 }
-header h1 {
+header h2 {
   color: white;
   text-align: center;
   font-size: 42px;
@@ -31,6 +31,12 @@ header h3 {
   text-align: center;
   font-family: '3', Arial, sans-serif;
   font-weight: 900;
+}
+header h4 {
+  color: white;
+  text-align: center;
+  font-size: 32x;
+  margin-top: 10px;
 }
 .data {
     margin-top: 50px;
