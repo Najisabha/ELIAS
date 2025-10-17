@@ -35,7 +35,7 @@ header h3 {
 header h4 {
   color: white;
   text-align: center;
-  font-size: 32x;
+  font-size: 18px;
   margin-top: 10px;
 }
 .data {
@@ -63,12 +63,12 @@ header h4 {
     font-family: '3', Arial, sans-serif;
     font-size: 18px;
 }
-/* shareet */
+/* ====== الشريط المتحرك الرئيسي ====== */
 .shareet {
   margin-top: 50px;
 }
 .shareet h2 {
-  color: white;
+  color: black;
   text-align: center;
   font-family: '3', Arial, sans-serif;
 }
@@ -81,7 +81,7 @@ header h4 {
 }
 .marquee-content {
   display: flex;
-  animation: scroll-right 25s linear infinite;
+  animation: scroll-right 5s linear infinite;
 }
 .marquee-content img {
   margin-right: 30px;
@@ -90,12 +90,13 @@ header h4 {
 }
 @keyframes scroll-right {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-1000%);
   }
 }
+/* ====== الفوتر ====== */
 footer {
   text-align: center;
   margin: 20px;
@@ -110,18 +111,20 @@ footer img {
   padding: 10px;
   border-radius: 10px;
 }
+/* ====== للموبايل الصغير جدًا ====== */
 @media (max-width: 501px) {
   @keyframes scroll-right {
     0% {
       transform: translateX(100%);
     }
     100% {
-      transform: translateX(-550%);
+      transform: translateX(0%);
     }
   }
 }
+/* ====== للهواتف ====== */
 @media (max-width: 600px) {
-/* shareet */
+
 .shareet {
   margin-top: 50px;
 }
