@@ -1,6 +1,6 @@
 
   body {
-  background-image: linear-gradient(rgba(130, 128, 255, 0.5), rgba(161, 255, 153, 0.5));
+  background-image: linear-gradient(#1e3135,#677270);
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
@@ -47,7 +47,7 @@ header h3 {
 /* data */
 .data {
     margin-top: 50px;
-    width: 60%;
+    width: fit-content;
     background-color: #ffffffb3;
     padding: 20px;
     border-radius: 10px;
@@ -108,6 +108,14 @@ footer {
   margin: 20px;
   color: rgb(0, 0, 0);
   font-family: '3', Arial, sans-serif;
+}
+footer img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 10px;
 }
 @media (max-width: 501px) {
   @keyframes scroll-right {
