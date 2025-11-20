@@ -1,35 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
-    <!-- عنوان الصفحة (مهم جداً للسيو) -->
+    <!-- Basic SEO -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>شركة إلياس للعطور والكوزمتكس | ELIAS Perfumes & Cosmetics</title>
-
-    <!-- وصف مختصر يظهر في نتائج البحث -->
     <meta
       name="description"
-      content="شركة إلياس للعطور والكوزمتكس - وكيل حصري لمجموعة من أشهر الماركات العالمية للعطور ومنتجات العناية والجمال، مع نقاط بيع معتمدة وموزعين معتمدين في فلسطين."
+      content="شركة إلياس للعطور والكوزمتكس - وكيل حصري لعدد من أهم العلامات العالمية في العطور ومستحضرات التجميل، مع شبكة موزعين معتمدين ونقاط بيع في فلسطين."
     />
-
-    <!-- محركات البحث -->
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="شركة إلياس للعطور والكوزمتكس" />
-
-    <!-- (اختياري) الكلمات المفتاحية – لم تعد مهمة جداً لكن لا تضر -->
     <meta
       name="keywords"
-      content="إلياس, ELIAS, عطور, كوزمتكس, عطور أصلية, منتجات تجميل, Elias Perfumes, Elias Cosmetics"
+      content="شركة إلياس للعطور, ELIAS, Elias Perfumes, Elias Cosmetics, عطور, كوزمتكس, مستحضرات تجميل, موزعين معتمدين, نقاط بيع"
     />
-
-    <!-- رابط أساسي للصفحة  -->
-    <link rel="canonical" href="https://elias.business/" />
-
-    <!-- أيقونة الموقع -->
-    <link rel="icon" type="image/svg+xml" href="img/LOGO/ELIAS.svg" />
-
-    <!-- تحسين مظهر شريط العنوان في الهواتف -->
-    <meta name="theme-color" content="#111111" />
-
-    <!-- روابط جاهزة للشبكات (لما يشارك الرابط على فيسبوك / واتساب) -->
+    <meta
+      name="author"
+      content="Elias Company for Perfumes & Cosmetics"
+    />
+    <!-- Robots -->
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://eliascompany.net/" />
+    <!-- Open Graph / Facebook -->
     <meta property="og:locale" content="ar_PS" />
     <meta property="og:type" content="website" />
     <meta
@@ -38,20 +33,18 @@
     />
     <meta
       property="og:description"
-      content="وكيل حصري لمجموعة من أشهر الماركات العالمية للعطور ومنتجات العناية والجمال، مع نقاط بيع وموزعين معتمدين."
+      content="اكتشف العلامات العالمية التي تمثلها شركة إلياس للعطور والكوزمتكس ونقاط البيع المعتمدة في فلسطين."
     />
-    <meta property="og:site_name" content="ELIAS Perfumes & Cosmetics" />
     <meta
       property="og:url"
       content="https://eliascompany.net/"
     />
-    <!-- استعمل مسار صورة مطلق (يفضل يكون JPG أو PNG) -->
+    <!-- يفضّل استخدام رابط كامل لصورة مخصّصة للسوشيال -->
     <meta
       property="og:image"
       content="https://eliascompany.net/img/LOGO/ELIAS.svg"
     />
-
-    <!-- كرت تويتر -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -59,16 +52,23 @@
     />
     <meta
       name="twitter:description"
-      content="وكيل حصري لماركات عالمية للعطور ومنتجات الجمال، مع نقاط بيع وموزعين معتمدين."
+      content="وكيل حصري لعدد من أهم العلامات العالمية في العطور والكوزمتكس مع خدمة عملاء مميزة."
     />
     <meta
       name="twitter:image"
       content="https://eliascompany.net/img/LOGO/ELIAS.svg"
     />
+    <!-- Theme color (للموبايل والمتصفح) -->
+    <meta name="theme-color" content="#111111" />
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="img/LOGO/ELIAS.svg"
+    />
 
-    <!-- تحميل أسرع لموارد الـ CDN -->
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <!-- Preconnect لتحسين تحميل Bootstrap من الـ CDN -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 
     <!-- Bootstrap CSS -->
     <link
@@ -77,20 +77,48 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/LOGO/ELIAS.svg">
+
+    <!-- CSS الرئيسي (main.css الجديد) -->
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Elias Company for Perfumes & Cosmetics",
+        "alternateName": "شركة إلياس للعطور والكوزمتكس",
+        "url": "https://eliascompany.net/",
+        "logo": "https://eliascompany.net/img/LOGO/ELIAS.svg",
+        "sameAs": [
+          "https://www.instagram.com/eliasperfumes.co/",
+          "https://www.facebook.com/profile.php?id=61560111006089"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+972-59-111-846",
+            "contactType": "customer service",
+            "areaServed": "PS",
+            "availableLanguage": ["ar", "en"]
+          }
+        ]
+      }
+    </script>
   </head>
 
   <body>
     <header>
-      <a id="header-logo"
-         href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-        <img src="img/LOGO/ELIAS.svg" alt="ELIAS Logo">
+      <a
+        id="header-logo"
+        href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+      >
+        <img src="img/LOGO/ELIAS.svg" alt="ELIAS Logo" />
       </a>
       <h2>أهلاً بِكُمْ في</h2>
       <h3>شركة إلياس للعطور والكوزمتكس</h3>
-      <hr>
+      <hr />
     </header>
 
     <main>
@@ -100,26 +128,26 @@
 
         <div class="marquee-container">
           <div class="marquee-content">
-            <img src="img/shareet/1.svg" alt="Brand 1">
-            <img src="img/shareet/2.svg" alt="Brand 2">
-            <img src="img/shareet/3.svg" alt="Brand 3">
-            <img src="img/shareet/4.svg" alt="Brand 4">
-            <img src="img/shareet/5.svg" alt="Brand 5">
-            <img src="img/shareet/6.svg" alt="Brand 6">
-            <img src="img/shareet/7.svg" alt="Brand 7">
-            <img src="img/shareet/8.svg" alt="Brand 8">
-            <img src="img/shareet/9.svg" alt="Brand 9">
-            <img src="img/shareet/10.svg" alt="Brand 10">
-            <img src="img/shareet/11.svg" alt="Brand 11">
-            <img src="img/shareet/12.svg" alt="Brand 12">
-            <img src="img/shareet/13.svg" alt="Brand 13">
-            <img src="img/shareet/2.svg" alt="Brand 2">
-            <img src="img/shareet/3.svg" alt="Brand 3">
-            <img src="img/shareet/4.svg" alt="Brand 4">
+            <img src="img/shareet/1.svg" alt="Brand 1" />
+            <img src="img/shareet/2.svg" alt="Brand 2" />
+            <img src="img/shareet/3.svg" alt="Brand 3" />
+            <img src="img/shareet/4.svg" alt="Brand 4" />
+            <img src="img/shareet/5.svg" alt="Brand 5" />
+            <img src="img/shareet/6.svg" alt="Brand 6" />
+            <img src="img/shareet/7.svg" alt="Brand 7" />
+            <img src="img/shareet/8.svg" alt="Brand 8" />
+            <img src="img/shareet/9.svg" alt="Brand 9" />
+            <img src="img/shareet/10.svg" alt="Brand 10" />
+            <img src="img/shareet/11.svg" alt="Brand 11" />
+            <img src="img/shareet/12.svg" alt="Brand 12" />
+            <img src="img/shareet/13.svg" alt="Brand 13" />
+            <img src="img/shareet/2.svg" alt="Brand 2" />
+            <img src="img/shareet/3.svg" alt="Brand 3" />
+            <img src="img/shareet/4.svg" alt="Brand 4" />
           </div>
         </div>
 
-        <hr>
+        <hr />
       </section>
 
       <!-- قسم البراندات -->
@@ -139,43 +167,59 @@
         <div class="container brand-grid">
           <div class="row g-3 justify-content-center">
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/pariscorner.ps/profilecard/?igsh=MXNyNnQzMXUwa2VkZg==">
-                <img src="img/p/1.svg" alt="Paris Corner">
+              <a
+                href="https://www.instagram.com/pariscorner.ps/profilecard/?igsh=MXNyNnQzMXUwa2VkZg=="
+              >
+                <img src="img/perfumes/1.svg" alt="Paris Corner" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/rue_broca.ps?igsh=aDdkd3UxYW1mbW9n&utm_source=qr">
-                <img src="img/p/2.svg" alt="Rue Broca">
+              <a
+                href="https://www.instagram.com/rue_broca.ps?igsh=aDdkd3UxYW1mbW9n&utm_source=qr"
+              >
+                <img src="img/perfumes/2.svg" alt="Rue Broca" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/p/3.svg" alt="Afnan Perfumes">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/perfumes/3.svg" alt="Afnan Perfumes" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/p/4.svg" alt="Unique">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/perfumes/4.svg" alt="Unique" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/p/5.svg" alt="Brand 5">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/perfumes/5.svg" alt="Brand 5" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/fragrance.worldps/profilecard/?igsh=MTJlbWN0Z2hqdXpqcQ==">
-                <img src="img/p/6.svg" alt="Fragrance World">
+              <a
+                href="https://www.instagram.com/fragrance.worldps/profilecard/?igsh=MTJlbWN0Z2hqdXpqcQ=="
+              >
+                <img src="img/perfumes/6.svg" alt="Fragrance World" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/frenchavenue.ps/profilecard/?igsh=NXFiODVjZnZvbzV2">
-                <img src="img/p/7.svg" alt="French Avenue">
+              <a
+                href="https://www.instagram.com/frenchavenue.ps/profilecard/?igsh=NXFiODVjZnZvbzV2"
+              >
+                <img src="img/perfumes/7.svg" alt="French Avenue" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/p/8.svg" alt="Zimaya">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/perfumes/8.svg" alt="Zimaya" />
               </a>
             </div>
           </div>
@@ -194,39 +238,44 @@
         <div class="container brand-grid">
           <div class="row g-3 justify-content-center">
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/firsttime.pal/profilecard/?igsh=bWFqNDFoZ2pkMzJq">
-                <img src="img/b/1.svg" alt="First Time">
+              <a
+                href="https://www.instagram.com/firsttime.pal/profilecard/?igsh=bWFqNDFoZ2pkMzJq"
+              >
+                <img src="img/Beauty_and_health_products/1.svg" alt="First Time" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/b/2.svg" alt="Brand B2">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/Beauty_and_health_products/2.svg" alt="Brand B2" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/b/3.svg" alt="Brand B3">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/Beauty_and_health_products/3.svg" alt="Brand B3" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/b/4.svg" alt="Brand B4">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/Beauty_and_health_products/4.svg" alt="Brand B4" />
               </a>
             </div>
             <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/b/5.svg" alt="Brand B5">
-              </a>
-            </div>
-            <div class="col-6 col-md-3 col-lg-2">
-              <a href="https://www.instagram.com/firsttime.pal/profilecard/?igsh=bWFqNDFoZ2pkMzJq">
-                <img src="img/b/1.svg" alt="First Time">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/Beauty_and_health_products/5.svg" alt="Brand B5" />
               </a>
             </div>
           </div>
         </div>
 
-        <hr>
+        <hr />
       </section>
 
       <!-- الموزعين -->
@@ -236,19 +285,19 @@
           <div class="row">
             <div class="col-6 col-md-3">
               <a href="https://www.facebook.com/alzainperfume">
-                <img src="img/moase/1.svg" alt="الزين للعطور">
+                <img src="img/moase/1.svg" alt="الزين للعطور" />
               </a>
               الزين للعطور
             </div>
             <div class="col-6 col-md-3">
               <a href="https://www.facebook.com/profile.php?id=61561167845207">
-                <img src="img/moase/2.svg" alt="صوفيا بيرفيوم">
+                <img src="img/moase/2.svg" alt="صوفيا بيرفيوم" />
               </a>
               صوفيا بيرفيوم
             </div>
           </div>
         </div>
-        <hr>
+        <hr />
       </section>
 
       <!-- المنصات -->
@@ -258,28 +307,32 @@
           <div class="row">
             <div class="col-4 col-md-2">
               <a href="https://eliascompany.net/">
-                <img src="img/medua/web.svg" alt="الموقع الإلكتروني">
+                <img src="img/medua/web.svg" alt="الموقع الإلكتروني" />
               </a>
             </div>
             <div class="col-4 col-md-2">
-              <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-                <img src="img/medua/instagram.svg" alt="Instagram">
+              <a
+                href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+              >
+                <img src="img/medua/instagram.svg" alt="Instagram" />
               </a>
             </div>
             <div class="col-4 col-md-2">
               <a href="https://www.facebook.com/profile.php?id=61560111006089">
-                <img src="img/medua/facebook.svg" alt="Facebook">
+                <img src="img/medua/facebook.svg" alt="Facebook" />
               </a>
             </div>
           </div>
-          <hr>
+          <hr />
         </div>
       </section>
 
       <!-- زر تحميل PDF -->
       <div class="Button_downlode_PDF text-center mb-5">
-        <a href="./img/PDF/About_Elias_Company _fin.pdf"
-           download="About Elias Company fin.pdf">
+        <a
+          href="./img/PDF/About_Elias_Company _fin.pdf"
+          download="About Elias Company fin.pdf"
+        >
           <button type="button" class="btn btn-light btn-lg">
             About Elias Company fin
           </button>
@@ -293,8 +346,14 @@
         <div class="row align-items-start">
           <!-- Logo -->
           <div class="col-md-4 footer-col">
-            <a href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA==">
-              <img src="img/LOGO/ELIAS.svg" class="footer-logo" alt="ELIAS Logo">
+            <a
+              href="https://www.instagram.com/eliasperfumes.co/profilecard/?igsh=MWcwMXFkdm9vajR2dA=="
+            >
+              <img
+                src="img/LOGO/ELIAS.svg"
+                class="footer-logo"
+                alt="ELIAS Logo"
+              />
             </a>
             <p class="footer-text mt-3">شركة إلياس للعطور والكوزمتكس</p>
           </div>
@@ -311,7 +370,10 @@
             </p>
 
             <p>
-              <a class="footer-link" href="mailto:Mohamed.s.saadeh@gmail.com">
+              <a
+                class="footer-link"
+                href="mailto:Mohamed.s.saadeh@gmail.com"
+              >
                 📧 Mohamed.s.saadeh@gmail.com
               </a>
             </p>
@@ -320,10 +382,20 @@
           <!-- Company Contacts -->
           <div class="col-md-4 footer-col">
             <h4 class="footer-title">خدمة العملاء</h4>
-            <p class="footer-sub">لأي إستفسار يمكنكم التواصل عبر الأرقام التالية:</p>
+            <p class="footer-sub">
+              لأي إستفسار يمكنكم التواصل عبر الأرقام التالية:
+            </p>
 
-            <p><a class="footer-link" href="https://wa.me/+97259111846">📱 +97259111846</a></p>
-            <p><a class="footer-link" href="https://wa.me/+972569899123">📱 +972569899123</a></p>
+            <p>
+              <a class="footer-link" href="https://wa.me/+97259111846">
+                📱 +97259111846
+              </a>
+            </p>
+            <p>
+              <a class="footer-link" href="https://wa.me/+972569899123">
+                📱 +972569899123
+              </a>
+            </p>
           </div>
         </div>
 
@@ -336,9 +408,11 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/home.js"></script>
   </body>
 </html>
